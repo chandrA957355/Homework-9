@@ -1,5 +1,6 @@
-venv
+.venv
 _*pycache*_
+.env
 qr_codes
 *.sqlite
 .vscode
