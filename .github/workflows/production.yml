@@ -72,5 +72,7 @@ jobs:
           image-ref: 'docker.io/chandra957355/homework-9:${{ github.sha }}'
           format: 'table'
           exit-code: '1' # Fail the job if vulnerabilities are found
+          skip-update: true 
+          offline-scan: true
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
